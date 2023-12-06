@@ -57,9 +57,9 @@ const [newPlace,setNewPlace] = useState("")
 <>
     <form>
     <select value={newPlace} onChange={handleAddChange}>
-      <option value="Ford">Ford</option>
-      <option value="Volvo">Volvo</option>
-      <option value="Fiat">Fiat</option>
+      <option value="Mumbai">Mumbai</option>
+      <option value="Delhi">Delhi</option>
+      <option value="Bangalore">Bangalore</option>
     </select>
   </form>
 
